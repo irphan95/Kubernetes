@@ -35,5 +35,10 @@ Installation of kubernetes
 ![image](https://user-images.githubusercontent.com/103019032/164389097-d1435234-0cdc-45a9-a710-60e098b985b8.png)
 - #### Show list of all pvc
 ![image](https://user-images.githubusercontent.com/103019032/164391129-3e943429-a097-4ebc-8659-0076e7b94e35.png)
+## * Daemonset in kubernetes *
+-#### Create a DaemonSet,You can describe a DaemonSet in a YAML file
+![image](https://user-images.githubusercontent.com/103019032/164427312-2c6cced3-1ff7-434a-b2c9-ace7aae9a9a0.png)
+- #### Edit using nano editor with the contents:
+![image](https://user-images.githubusercontent.com/103019032/164427745-0f53d700-e3a7-483c-a52e-5c57a6494189.png)
 
 
