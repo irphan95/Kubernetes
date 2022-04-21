@@ -20,4 +20,19 @@ Installation of kubernetes
 ![image](https://user-images.githubusercontent.com/103019032/164209319-c231f254-b46f-4143-a2b5-51b2ac995c66.png)
 - #### Edit using nano editor with the contents:
 ![image](https://user-images.githubusercontent.com/103019032/164211536-8f7da695-af4a-455e-aa7a-a2a9c2623f4d.png)
+- #### Multi container pods are created using yaml with the definition of the containers
+![image](https://user-images.githubusercontent.com/103019032/164372798-33f05adc-2033-4af7-88f1-bc21a863331d.png)
+- #### Edit using nano editor with the contents
+![image](https://user-images.githubusercontent.com/103019032/164372894-a585d31b-602e-4c69-9343-8bb3443e4c9c.png)
+## * Implementation of storage class and PVC *
+- #### Create a storage class using nano editor
+![image](https://user-images.githubusercontent.com/103019032/164388514-0cf941a1-332c-4976-bff2-c4af4180c4bb.png)
+- #### Create a storage class using kubectl create command
+![image](https://user-images.githubusercontent.com/103019032/164388868-b4ff4f7b-e35c-4e88-8c83-8bf374acd85c.png)
+- #### After that we create PVC using nano editor
+![image](https://user-images.githubusercontent.com/103019032/164390786-77bbeaf4-f54a-4582-9fd6-ba07aa0af78d.png)
+- #### Create a PVC using kubectl create command
+![image](https://user-images.githubusercontent.com/103019032/164389097-d1435234-0cdc-45a9-a710-60e098b985b8.png)
+
+
 
