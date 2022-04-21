@@ -24,7 +24,7 @@ Installation of kubernetes
 ![image](https://user-images.githubusercontent.com/103019032/164372798-33f05adc-2033-4af7-88f1-bc21a863331d.png)
 - #### Edit using nano editor with the contents
 ![image](https://user-images.githubusercontent.com/103019032/164372894-a585d31b-602e-4c69-9343-8bb3443e4c9c.png)
-## * Implementation of storage class and PVC *
+## *Implementation of storage class and PVC*
 - #### Create a storage class using nano editor
 ![image](https://user-images.githubusercontent.com/103019032/164388514-0cf941a1-332c-4976-bff2-c4af4180c4bb.png)
 - #### Create a storage class using kubectl create command
@@ -35,10 +35,25 @@ Installation of kubernetes
 ![image](https://user-images.githubusercontent.com/103019032/164389097-d1435234-0cdc-45a9-a710-60e098b985b8.png)
 - #### Show list of all pvc
 ![image](https://user-images.githubusercontent.com/103019032/164391129-3e943429-a097-4ebc-8659-0076e7b94e35.png)
-## * Daemonset in kubernetes *
+## *Daemonset in kubernetes*
 -#### Create a DaemonSet,You can describe a DaemonSet in a YAML file
 ![image](https://user-images.githubusercontent.com/103019032/164427312-2c6cced3-1ff7-434a-b2c9-ace7aae9a9a0.png)
 - #### Edit using nano editor with the contents:
 ![image](https://user-images.githubusercontent.com/103019032/164427745-0f53d700-e3a7-483c-a52e-5c57a6494189.png)
-
-
+ #### * Implementation of Configmap and secret application (with DB) *
+- #### we will create a simple YAML that contains the data
+![image](https://user-images.githubusercontent.com/103019032/164449175-d58666a7-4eaa-4233-8118-6f607bbd0e44.png)
+- #### Edit using nano editor with the contents:
+![image](https://user-images.githubusercontent.com/103019032/164449737-d78de4fb-8ba3-4c58-aa7e-c5510d12d9fe.png)
+- #### These YAML and configmap can be created using the kubectl apply command 
+![image](https://user-images.githubusercontent.com/103019032/164450691-9f79c936-5619-4f49-b86d-0a15c7a0bc0b.png)
+- #### Use the following command with the appropriate ConfigMap name defined in the metadata section
+![image](https://user-images.githubusercontent.com/103019032/164451291-64145f62-b279-4475-be52-e1c0762ef10c.png)
+- #### we will create a simple YAML that contains the data
+![image](https://user-images.githubusercontent.com/103019032/164452799-8dffb51c-5322-4d5a-b2a2-a0ac02971c59.png)
+- #### Edit using nano editor with the contents:
+![image](https://user-images.githubusercontent.com/103019032/164452077-e1ecfeb0-4bfa-40b2-9dfc-60d06daf137a.png)
+- #### These YAML and secret can be created using the kubectl apply command
+![image](https://user-images.githubusercontent.com/103019032/164452574-db9f8ebb-54b1-422c-8b33-eddfc61fc15f.png)
+- #### Use the following command with the appropriate Service name defined in the metadata section
+![image](https://user-images.githubusercontent.com/103019032/164453105-34e230f5-8adb-4683-8585-bd3d773afc74.png)
