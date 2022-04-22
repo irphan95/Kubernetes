@@ -57,3 +57,19 @@ Installation of kubernetes
 ![image](https://user-images.githubusercontent.com/103019032/164452574-db9f8ebb-54b1-422c-8b33-eddfc61fc15f.png)
 - #### Use the following command with the appropriate Service name defined in the metadata section
 ![image](https://user-images.githubusercontent.com/103019032/164453105-34e230f5-8adb-4683-8585-bd3d773afc74.png)
+## *Helmchart in kubernetes*
+- #### Use the helm create command we can create the helm chart
+![image](https://user-images.githubusercontent.com/103019032/164622135-ad03e3ec-2972-447a-bcad-2cd1b963c138.png)
+- #### Let’s deploy an Apache webserver using Helm. As a first step, we need to tell Helm what location to search by adding a Helm repository
+![image](https://user-images.githubusercontent.com/103019032/164624910-02a2547d-a62d-42ec-9955-9fe4456fe824.png)
+- #### Let’s install the actual container
+![image](https://user-images.githubusercontent.com/103019032/164625210-5eabc989-37bd-4aac-8cd3-d6c66f355b1d.png)
+ - #### We can check the state of the containers using kubectl
+ ![image](https://user-images.githubusercontent.com/103019032/164625472-3402db14-3bf1-4493-b692-67c9922db815.png)
+ - #### Helm can show us information about current deployments
+ ![image](https://user-images.githubusercontent.com/103019032/164625902-e067f45c-1507-4736-94e5-aed18098c1d0.png)
+- #### Helm stores deployment information in secrets 
+![image](https://user-images.githubusercontent.com/103019032/164626364-275838e8-b165-4f4d-aa96-ce23c02fa479.png)
+- #### Deploy wordpress using helm chart
+![image](https://user-images.githubusercontent.com/103019032/164628152-86b26cac-ca7c-49bf-800e-60add2da5dcc.png)
+
