@@ -72,4 +72,7 @@ Installation of kubernetes
 ![image](https://user-images.githubusercontent.com/103019032/164626364-275838e8-b165-4f4d-aa96-ce23c02fa479.png)
 - #### Deploy wordpress using helm chart
 ![image](https://user-images.githubusercontent.com/103019032/164628152-86b26cac-ca7c-49bf-800e-60add2da5dcc.png)
-
+## *Git Lab*
+- #### installation of gitlab in ubuntu
+![image](https://user-images.githubusercontent.com/103019032/164684158-b3cd9208-4fb2-4f94-9763-fd5188bdbcc5.png)
+![image](https://user-images.githubusercontent.com/103019032/164684285-9c627231-2770-49a3-8042-4e250181e87f.png)
