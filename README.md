@@ -76,3 +76,24 @@ Installation of kubernetes
 - #### installation of gitlab in ubuntu
 ![image](https://user-images.githubusercontent.com/103019032/164684158-b3cd9208-4fb2-4f94-9763-fd5188bdbcc5.png)
 ![image](https://user-images.githubusercontent.com/103019032/164684285-9c627231-2770-49a3-8042-4e250181e87f.png)
+## *ingress controller in kubernetes*
+- #### kubectl get namespaces confirms that authentication is working, the cluster nodes are ready, and there are no NGINX Ingress controllers configured
+![image](https://user-images.githubusercontent.com/103019032/165928611-a76760c5-0d59-4480-ba7b-b9450cc00b0a.png)
+- #### To install an NGINX Ingress controller using Helm, use the chart nginx-stable/nginx-ingress, which is available in the official repository
+![image](https://user-images.githubusercontent.com/103019032/165929005-38a6f84e-c222-4736-8c92-2c4cd3d2510f.png)
+- #### To install the chart with the release name ingress-nginx:
+![image](https://user-images.githubusercontent.com/103019032/165929827-c5b09c50-1c9a-4d30-a0dd-b3f3d06fc3e0.png)
+- #### Install via CLI
+![image](https://user-images.githubusercontent.com/103019032/165930238-4ccb3104-60ee-452d-85c4-5cffd1c48bcb.png)
+- #### LoadBalancer
+![image](https://user-images.githubusercontent.com/103019032/165930573-24e9bca0-d221-454b-810c-6f3b4cef4e27.png)
+- #### Validate the NGINX Ingress Controller
+![image](https://user-images.githubusercontent.com/103019032/165930972-0388e847-edcb-438f-ba86-2a8071742c70.png)
+![image](https://user-images.githubusercontent.com/103019032/165931091-555bcdbb-0c55-4e3a-86c1-bbc677abf0cf.png)
+![image](https://user-images.githubusercontent.com/103019032/165931498-9c997895-a723-4562-8733-0cabcdcfce97.png)
+![image](https://user-images.githubusercontent.com/103019032/165931637-cb8d8974-507d-4bb2-a580-83010124d2b7.png)
+
+
+
+
+
